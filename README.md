@@ -219,7 +219,7 @@ this is a security research toolkit. only run against targets you own or have ex
 
 ## author
 
-**ibnu khoirul anwar** // NuRichter Workspace, Jakarta
+NuRichter
 
 > built for the people who stay up debugging at 2am and think it's fun
 
