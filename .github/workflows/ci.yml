@@ -1,0 +1,41 @@
+name: ci
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-go:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+      - name: tidy
+        run: go mod tidy
+      - name: build
+        run: go build -ldflags="-s -w" -o lyuss ./cmd/lyuss/
+      - name: test
+        run: go test ./... -v
+
+  lint-ruby:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+      - name: install gems
+        run: gem install rubocop colorize --no-document
+      - name: rubocop
+        run: rubocop --no-color ruby/ || true
+
+  build-c:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: build payload_runner
+        run: gcc -O2 -Wall -Wextra -o bin/payload_runner bin/payload_runner.c
